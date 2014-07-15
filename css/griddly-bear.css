@@ -1,6 +1,6 @@
 .gb-grid {
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
 }
 .gb-grid table {
     width: 100%;
@@ -391,6 +391,8 @@ input[type="checkbox"].gb-column-picker-cb {
     list-style-type: none;
     padding: 2px 0;
 }
+
+/* styles to support the drag-n-drop columns */
 .gb-placeholder {
     background-color: #EEEEEE;
 }
